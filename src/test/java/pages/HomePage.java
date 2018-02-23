@@ -5,7 +5,7 @@ import org.openqa.selenium.support.FindBy;
 
 public class HomePage {
 
-    @FindBy(id = "li_myaccount")
+    @FindBy(xpath = "//ul[@class='nav navbar-nav navbar-right currency_btn']//ul[@class='nav navbar-nav navbar-side navbar-right sidebar go-left']//li[@id='li_myaccount']")
     private WebElement myAccount;
 
     @FindBy(xpath = "//html//div[@class='navbar navbar-static-top navbar-default  hidden-lg hidden-md']//li[@id='li_myaccount']//li[1]/a[1]")
